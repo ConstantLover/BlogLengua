@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Renacimiento</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <style>
+        body {
+            background: url('https://th.bing.com/th/id/R.b39f6cece87362e62166a937e8679ab2?rik=4EjUTu4u%2fUBbOQ&pid=ImgRaw&r=0&sres=1&sresct=1') no-repeat center center fixed;
+            background-size: cover;
+            scroll-behavior: smooth;
+            padding-top: 120px;
+        }
+        body::before {
+            content: "";
+            position: fixed;
+            inset: 0;
+            background-color: rgba(255, 255, 255, 0.45);
+            z-index: -1;
+        }
+
+        .typing-effect {
+            border-right: 3px solid #3498db;
+            white-space: nowrap;
+            overflow: hidden;
+            animation: typing 3s steps(40, end), blink-caret .75s step-end infinite;
+        }
+
+        @keyframes typing {
+            from { width: 0 }
+            to { width: 100% }
+        }
+
+        .nav-pages {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background-color: #2c3e50;
+            z-index: 1000;
+            padding: 10px 0;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+        }
+
+        .nav-pages ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            padding: 0;
+            margin: 0 20px;
+        }
+
+        .nav-pages li {
+            margin: 0 15px;
+        }
+
+        .nav-pages a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 8px 15px;
+            border-radius: 5px;
+            transition: all 0.3s ease;
+        }
+
+        .nav-pages a:hover {
+            background-color: #3498db;
+        }
+
+        .nav-topics {
+            background-color: #34495e;
+            padding: 10px 0;
+            margin-top: 60px;             position: sticky;
+            top: 60px;
+            z-index: 999;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .nav-topics ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .nav-topics li {
+            margin: 0 15px;
+        }
+
+        .nav-topics a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 8px 15px;
+            border-radius: 5px;
+            transition: all 0.3s ease;
+        }
+
+        .nav-topics a:hover {
+            background-color: #2980b9;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        section {
+            padding: 40px 20px;
+            margin-bottom: 30px;
+            background-color: rgba(249, 249, 249, 0.9);
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+       
+        .gallery {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin: 30px 0;
+            flex-wrap: wrap;
+        }
+
+        .hover-image {
+            max-width: 300px;
+            height: auto;
+            border-radius: 8px;
+            transition: transform 0.3s ease;
+        }
+
+        .hover-image:hover {
+            transform: scale(1.05);
+        }
+
+        blockquote {
+            background-color: #e8f4fc;
+            border-left: 5px solid #3498db;
+            padding: 15px;
+            margin: 20px 0;
+            font-style: italic;
+        }
+
+        .authors-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin: 20px 0;
+        }
+
+        .author-card {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .analysis {
+            background-color: #f0f8ff;
+            padding: 10px;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="nav-pages">
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="rena.html">Renacimiento</a></li>
+            <li><a href="ilu.html">Ilustración</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1>Literatura del Renacimiento</h1>
+    </header>
+
+    <nav class="nav-topics">
+        <ul>
+            <li><a href="#definicion">Definición</a></li>
+            <li><a href="#caracteristicas">Características</a></li>
+            <li><a href="#autores">Autores</a></li>
+            <li><a href="#fragmentos">Fragmentos</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="definicion">
+            <h2 class="typing-effect">Definición</h2>
+            <p>El Renacimiento fue un movimiento cultural que surgió en Europa durante los siglos XV y XVI, caracterizado por un renovado interés en la antigüedad clásica y un enfoque humanista que situaba al ser humano como centro del universo. Este período marcó la transición entre la Edad Media y la Edad Moderna.</p>
+            
+            <p>El término "Renacimiento" proviene de la idea de "renacer" de los valores e ideales de la antigüedad clásica grecolatina. Este movimiento comenzó en Italia en el siglo XIV y se extendió por toda Europa durante los siglos XV y XVI.</p>
+        </section>
+
+        <section id="caracteristicas">
+            <h2 class="typing-effect">Características</h2>
+            <ul>
+                <li><strong>Humanismo:</strong> Exaltación del ser humano y la razón como centro del universo.</li>
+                <li><strong>Inspiración clásica:</strong> Recuperación de temas y formas de la cultura grecolatina.</li>
+                <li><strong>Equilibrio estético:</strong> Armonía entre forma y contenido en las obras literarias.</li>
+                <li><strong>Temas variados:</strong> Amor idealizado, mitología, filosofía y exploración de la naturaleza humana.</li>
+                <li><strong>Nacionalismo literario:</strong> Desarrollo de literaturas nacionales en lenguas vernáculas.</li>
+                <li><strong>Individualismo:</strong> Los autores comienzan a firmar sus obras y a desarrollar estilos personales.</li>
+            </ul>
+        </section>
+
+        <section id="autores">
+            <h2 class="typing-effect">Autores destacados</h2>
+            <div class="authors-grid">
+                <div class="author-card">
+                    <h3>Miguel de Cervantes</h3>
+                    <p>España (1547-1616)<br>
+                    Obra cumbre: <em>Don Quijote de la Mancha</em></p>
+                </div>
+                <div class="author-card">
+                    <h3>William Shakespeare</h3>
+                    <p>Inglaterra (1564-1616)<br>
+                    Obras: <em>Hamlet</em>, <em>Romeo y Julieta</em></p>
+                </div>
+                <div class="author-card">
+                    <h3>Dante Alighieri</h3>
+                    <p>Italia (1265-1321)<br>
+                    Obra: <em>La Divina Comedia</em></p>
+                </div>
+                <div class="author-card">
+                    <h3>Petrarca</h3>
+                    <p>Italia (1304-1374)<br>
+                    Obra: <em>Canzoniere</em></p>
+                </div>
+            </div>
+        </section>
+
+        <section id="fragmentos">
+            <h2 class="typing-effect">Fragmentos destacados</h2>
+            
+            <article>
+                <h3><em>Don Quijote de la Mancha</em> – Miguel de Cervantes</h3>
+                <blockquote>
+                    "En un lugar de la Mancha, de cuyo nombre no quiero acordarme, no ha mucho tiempo que vivía un hidalgo de los de lanza en astillero, adarga antigua, rocín flaco y galgo corredor."
+                </blockquote>
+                <p class="analysis"><strong>Análisis:</strong> Este famoso inicio presenta de manera irónica al protagonista, estableciendo el tono de la obra que mezcla lo heroico con lo cómico. La enumeración de objetos anticuados y el caballo flaco contrastan con la imagen tradicional del caballero.</p>
+            </article>
+            
+            <article>
+                <h3><em>Soneto XXIII</em> – Garcilaso de la Vega</h3>
+                <blockquote>
+                    "En tanto que de rosa y azucena<br>
+                    se muestra la color en vuestro gesto,<br>
+                    y que vuestro mirar ardiente, honesto,<br>
+                    enciende al corazón y lo refrena;"
+                </blockquote>
+                <p class="analysis"><strong>Análisis:</strong> Este soneto muestra el ideal renacentista de belleza y amor, con referencias clásicas y un lenguaje equilibrado. La antítesis "enciende al corazón y lo refrena" refleja el conflicto entre pasión y razón.</p>
+            </article>
+        </section>
+
+        <div class="gallery">
+            <img src="https://th.bing.com/th/id/R.ac65281464e7d20206081abb8679f552?rik=DK19GFKsfMgMtA&pid=ImgRaw&r=0.jpg" alt="Don Quijote" class="hover-image">
+            
+        </div>
+    </main>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const titles = document.querySelectorAll('.typing-effect');
+            
+            titles.forEach(title => {
+                const text = title.textContent;
+                title.textContent = '';
+                
+                let i = 0;
+                const typing = setInterval(() => {
+                    if (i < text.length) {
+                        title.textContent += text.charAt(i);
+                        i++;
+                    } else {
+                        clearInterval(typing);
+                        title.style.borderRight = 'none';
+                    }
+                }, 100);
+            });
+
+            // Efecto suave para los enlaces internos
+            document.querySelectorAll('.nav-topics a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const targetId = this.getAttribute('href');
+                    const targetElement = document.querySelector(targetId);
+                    
+                    if (targetElement) {
+                        window.scrollTo({
+                            top: targetElement.offsetTop - 120,
+                            behavior: 'smooth'
+                        });
+                    }
+                });
+            });
+        });
+    </script>
+
+</body>
+</html>
